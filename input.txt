@@ -1,0 +1,6 @@
+add 3 4
+sub 3 4
+mul 3 4
+truediv 3 4
+floordiv 3 4
+pow 3 4
