@@ -4,17 +4,17 @@ To redirect standard input and output, we need to import the sys module:
 ```python 
 import sys
 ```
-this is how to read from input named:"input.txt":
+To read input from a file named"input.txt":
 ```python 
 fin=open("input.txt","rt")
 sys.stdin=fin
 ```
-this is how to write output and name it to"output.txt"
+To write output to a file named"output.txt":
 ```python 
 fout=open("output.txt","wt")
 sys.stdout=fout
 ```
-this is how to calculate two numbers from input:
+To calculate two numbers from input.txt and write the results to output.txt:
 ```python
 while True:
     parts=input().strip().split()
