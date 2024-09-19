@@ -1,6 +1,6 @@
 # How to redirect standard input outpt
 
-to import from input use sys:
+To redirect standard input and output, we need to import the sys module:
 ```python 
 import sys
 ```
